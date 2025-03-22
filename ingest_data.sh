@@ -2,9 +2,9 @@
 
 # === Variables ===
 CONTAINER_NAME=cse587project-namenode-1
-LOCAL_FILE_PATH="./2019-Nov.csv"
+LOCAL_FILE_PATH="./2019-Oct.csv"
 HDFS_DIR="/ecommerce_data"
-HDFS_FILE_NAME="2019-Nov.csv"
+HDFS_FILE_NAME="2019-Oct.csv"
 CONTAINER_DEST_PATH="/opt/hadoop/$HDFS_FILE_NAME"
 
 echo "🚀 Starting Data Ingestion Script..."
